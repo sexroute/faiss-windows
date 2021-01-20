@@ -1,8 +1,8 @@
 #include <boost/test/unit_test.hpp>
 #include "test-util.h"
 
-#include <faiss/IndexFlat.h>
-#include <faiss/utils.h>
+#include "../IndexFlat.h"
+#include "../utils.h"
 BOOST_AUTO_TEST_SUITE(FlatIndex)
 /**
 test the correctness of flat index using faiss flat index

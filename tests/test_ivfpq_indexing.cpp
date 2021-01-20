@@ -14,9 +14,9 @@
 #include <boost/test/unit_test.hpp>
 #include "test-util.h"
 
-#include <faiss/IndexIVFPQ.h>
-#include <faiss/IndexFlat.h>
-#include <faiss/index_io.h>
+#include "../IndexIVFPQ.h"
+#include "../IndexFlat.h"
+#include "../index_io.h"
 
 BOOST_AUTO_TEST_CASE(IVFPQ_index) {
 

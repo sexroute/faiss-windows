@@ -6,6 +6,8 @@
     <ClCompile Include="tests\test-flatindex.cpp" />
     <ClCompile Include="tests\main.cpp" />
     <ClCompile Include="tests\test_ivfpq_indexing.cpp" />
+    <ClCompile Include="tests\debug.cpp" />
+    <ClCompile Include="tests\test_tools.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="tests\test-util.h" />

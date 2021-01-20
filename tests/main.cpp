@@ -13,7 +13,13 @@ void TestRunner::run(int n, char** argc) {
 boost::unit_test::test_suite* TestRunner::init(int, char**) {
 	return 0;
 }
-int main(int argv, char** argc) {
-	TestRunner runner;
-	runner.run(argv, argc);
-}
+
+
+ #include <boost/test/test_exec_monitor.hpp>
+
+ int test_main(int argv, char** const argc)
+ {
+	 TestRunner runner;
+	 runner.run(argv, argc);
+	 return 0;
+ }
